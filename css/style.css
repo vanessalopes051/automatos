@@ -3,6 +3,7 @@ body{
 }
 
 .menu{
+	margin-top: 70px;
 	justify-content: center;
 	text-align: center;
 }
@@ -47,6 +48,16 @@ section.q1b{
 
 section.q1a{
     display: none;
+}
+
+input.error{
+    border: 0.2px solid red ;
+    box-shadow: 0 0 1em red;
+}
+
+input.valido{
+    border: 0.2px solid green ;
+    box-shadow: 0 0 1em green;
 }
 
 
