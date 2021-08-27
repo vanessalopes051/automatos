@@ -1,12 +1,36 @@
-section.q1a{
-    display: none;
-}
-
 body{
 	background: pink;
 }
 
+.menu{
+	justify-content: center;
+	text-align: center;
+}
+
+button{
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	display:inline-block;
+	padding: 13px 25px; 
+	margin: 10px;
+	background-color: #4CAF50;
+}
+
+
+section{
+	justify-content: center;
+	text-align: center;
+}
+
 section.q1b{
+    
+}
+
+section.q1a{
     display: none;
 }
+
+
 
