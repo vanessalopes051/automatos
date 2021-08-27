@@ -1,5 +1,5 @@
 body{
-	background: pink;
+
 }
 
 .menu{
@@ -15,7 +15,7 @@ button{
 	display:inline-block;
 	padding: 13px 25px; 
 	margin: 10px;
-	background-color: #4CAF50;
+	background-color: #008CBA;
 }
 
 
@@ -24,8 +24,25 @@ section{
 	text-align: center;
 }
 
+ .inputText{
+ 	outline: none;
+    height: 35px;
+    width: 20%;
+    border: 0.1px solid gray ;
+    margin: 0.7em auto 0.5em;
+ }
+
+ .inputBtn{
+ 	height: 35px;
+ 	border:none;
+    margin: 0.7em auto 0.5em;
+    cursor: pointer;
+    background: #008CBA;
+    color: white;
+ }
+
 section.q1b{
-    
+      display: none;
 }
 
 section.q1a{
